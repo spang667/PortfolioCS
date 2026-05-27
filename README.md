@@ -49,3 +49,45 @@ Randomized house assignment — For all other names, the program selects a house
 
 Interactive experience — Includes timed pauses (“…”) to build suspense before revealing the house.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Rock, Paper, Scissors Game
+Project Summary
+This interactive console game simulates a classic match of Rock, Paper, Scissors against the computer. The player chooses their move, the computer randomly selects its own, and the program determines the winner. The game keeps track of wins and losses and allows the player to continue playing as long as they wish.
+
+Key Features
+Randomized computer choices — The computer selects rock, paper, or scissors using random number generation.
+
+Win/loss tracking — The program keeps a running total of the player’s wins and losses across rounds.
+
+Input validation — Ensures the player enters a valid move before continuing.
+
+Replay system — After each round, the player can choose to play again or exit the game.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Slot Machine Game
+Project Summary
+This project simulates a three‑slot casino machine where players deposit credits, spin the reels, and try their luck at winning bonus payouts. Each spin costs 10 credits, and the slot machine randomly generates symbols to determine wins, losses, or a jackpot. The game includes a banking system, credit validation, and a continuous play loop.
+
+Key Features
+Credit deposit system — Players can deposit fixed credit amounts (20, 50, or 100) through an in‑game bank before spinning.
+
+Randomized slot reels — Each spin selects three symbols from a list, including the jackpot “7”.
+
+Win conditions — Matching all three symbols awards +50 credits, while triple “7” triggers a +100 credit jackpot.
+
+Replay and banking options — Players can spin, quit, or return to the bank when funds run low.
+
+Input validation — Ensures only accepted deposit amounts and valid commands are processed.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Universal Planner (To‑Do List Manager)
+Project Summary
+This interactive console‑based planner allows users to manage a personal to‑do list by adding tasks, marking items as completed, removing tasks, or clearing the entire list. The program displays both active and completed tasks and guides the user through a menu‑driven interface with built‑in input validation and timed prompts for a smoother experience.
+
+Key Features
+Task creation — Users can add new items to the to‑do list with simple text input.
+
+Completion tracking — Completed tasks are moved from the active list to a dedicated completed list.
+
+Removal and clearing options — Users can remove specific tasks or clear the entire to‑do list.
+
+Menu‑driven interface — A numbered menu guides users through all available actions.
+
+Input validation — Prevents empty entries and handles invalid menu selections gracefully.
