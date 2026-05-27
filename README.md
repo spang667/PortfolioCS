@@ -92,3 +92,27 @@ Menu‑driven interface — A numbered menu guides users through all available a
 
 Input validation — Prevents empty entries and handles invalid menu selections gracefully.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pokemon Blue - Game Summary
+This is an interactive Pokémon evolution simulator where you raise Squirtle through its evolutions (Squirtle → Wartortle → Blastoise) up to level 100.
+
+Core Mechanics:
+Day tracking: Progress through in-game days
+Level progression: Train or battle to gain experience
+Mood system: Affects battle difficulty and changes based on outcomes
+Save/Load: Persist game state to a JSON file
+Three Evolution Stages:
+Squirtle (Levels 1-15): Early training phase with gym battle vs. Brock
+Wartortle (Levels 16-35): Mid-game progression with gym battle vs. Misty
+Blastoise (Levels 36-100): Final stage with boss battle vs. Giovanni
+Gameplay Loop:
+Each turn, you choose to:
+
+Train: +1 level, +1 mood
+Battle: Fight random-level opponents; winning increases level and mood, losing decreases mood
+Save/Load: Manage game progress
+Exit: Quit the game
+Features:
+ASCII art for each Pokémon evolution
+Dynamic difficulty based on mood stat
+Forced gym leader/boss battles at key levels
+Game ends when Blastoise reaches level 100
