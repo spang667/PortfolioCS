@@ -25,3 +25,27 @@ Randomized number generation — Ensures each playthrough is unpredictable and r
 
 Attempt‑tracking system — Players must guess correctly before running out of tries.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Applicant Job Filter Program
+Project Summary
+This program filters a large dataset of applicants based on their job expertise and years of experience. By scanning three parallel lists—names, experience, and job titles—it identifies candidates who match specific hiring criteria. The script can return all applicants with a given skill or only those who meet a minimum experience requirement.
+
+Key Features
+Expertise‑based filtering — Finds all applicants who match a specific job title (e.g., “Python Developer”).
+
+Experience threshold search — Returns only applicants who meet or exceed a required number of years.
+
+Large dataset handling — Works with over 200 applicants using parallel list indexing.
+
+Reusable search functions — Includes two search modes: expertise‑only and expertise‑plus‑experience.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hogwarts House Sorter
+Project Summary
+This interactive program assigns users to one of the four Hogwarts houses based on their name or a random selection. Known characters are automatically placed into their canonical houses, while all other users receive a randomized assignment. The script includes a dramatic loading sequence and allows repeated sorting.
+
+Key Features
+Name‑based sorting — Recognizes iconic characters (Harry, Draco, Luna, etc.) and assigns them to their correct houses.
+
+Randomized house assignment — For all other names, the program selects a house using random number generation.
+
+Interactive experience — Includes timed pauses (“…”) to build suspense before revealing the house.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
