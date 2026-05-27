@@ -1,2 +1,14 @@
 # PortfolioCS
 This is a collection of programs I made during AP CSP
+
+breach.py
+Project Summary
+This project processes system security logs and identifies IP addresses associated with specific log events. It scans through paired lists of log messages and IP addresses, then extracts the IPs linked to events such as successful logins or unauthorized access attempts. The script helps visualize patterns in system activity and detect suspicious behavior.
+
+Key Features
+Event‑based IP extraction — Searches logs for a specific event (e.g., “Login success”) and returns all matching IP addresses.
+
+Simple log‑scanning function — Uses a custom function to iterate through logs and collect relevant IPs.
+
+Security insight generation — Helps identify unauthorized login attempts and potential threats by grouping IPs tied to suspicious events.
+
