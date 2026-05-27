@@ -91,3 +91,4 @@ Removal and clearing options — Users can remove specific tasks or clear the en
 Menu‑driven interface — A numbered menu guides users through all available actions.
 
 Input validation — Prevents empty entries and handles invalid menu selections gracefully.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
